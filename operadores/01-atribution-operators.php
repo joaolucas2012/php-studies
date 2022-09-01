@@ -8,8 +8,6 @@
   $nome.= " Treinamento";
   echo $nome;
 
-  /************************/
-
   $valor = 0;
   echo $valor . " ";;
 
