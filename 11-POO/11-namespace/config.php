@@ -2,7 +2,7 @@
 
 spl_autoload_register(function($nameClass){
   // nome da pasta
-  $dirClass = "class";
+  $dirClass = "Classes";
   // caminho do arquivo com concatenação de string
   $fileName = $dirClass . DIRECTORY_SEPARATOR . $nameClass . ".php";
 
