@@ -6,7 +6,7 @@ try{
   echo json_encode(array(
     "message"=>$e->getMessage(),
     "line"=>$e->getLine(),
-    "file"=>$e->getFile(),
+    "file"=>str_replace("\\", "/", $e->getFile()),
     "code"=>$e->getCode()
   ));
 }
