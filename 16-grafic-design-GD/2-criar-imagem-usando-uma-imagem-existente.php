@@ -1,6 +1,6 @@
 <?php
 
-// Criando a imagem a partir da imagem certificado.jpeg
+// Criando a imagem a partir da imagem certificado.jpg
 $image = imagecreatefromjpeg("certificado.jpg");
 
 // Definindo a paleta de cores
