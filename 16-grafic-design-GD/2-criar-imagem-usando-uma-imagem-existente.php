@@ -1,7 +1,7 @@
 <?php
 
 // Criando a imagem a partir da imagem certificado.jpg
-$image = imagecreatefromjpeg("certificado.jpg");
+$image = imagecreatefromjpeg("images/certificado.jpg");
 
 // Definindo a paleta de cores
 $titleColor = imagecolorallocate($image, 0, 0, 0);
@@ -20,7 +20,7 @@ header("Content-Type: image/jpg");
 
 // salvando a imagem no diretório
 // o último parâmetro é a porcentagem da resolução desejada para a imagem
-imagejpeg($image, "certificado".date("d_m_Y").".jpg", 98);
+imagejpeg($image, "images/certificado".date("d_m_Y").".jpg", 98);
 
 // Liberando a alocação de memória
 imagedestroy($image);
