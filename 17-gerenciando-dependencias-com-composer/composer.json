@@ -1,0 +1,20 @@
+{
+  "name": "joaolucas2012/composer",
+  "description": "learning composer with php7",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Joaolucas2012\\Composer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "joaolucas2012",
+      "email": "ribeirojoaolucas68@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "monolog/monolog": "1.0.*"
+  }
+}

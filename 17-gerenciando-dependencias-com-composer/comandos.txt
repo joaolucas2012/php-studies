@@ -1,0 +1,9 @@
+composer init
+joaolucas2012/name
+Alguma descrição
+composer install (só na primeira vez)
+composer update (da primeira vez em diante) --> Ou seja, usar esse resolve
+
+
+// Para entender boas práticas de programação do PHP
+php-fig.org
